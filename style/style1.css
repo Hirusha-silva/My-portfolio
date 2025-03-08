@@ -1,0 +1,22 @@
+body section:first-child img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    float: left;
+    z-index: 5;
+}
+#navi{
+    background-color: #b7ff00;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+#navi2 a{
+    text-decoration: none;
+
+}

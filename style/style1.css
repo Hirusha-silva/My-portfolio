@@ -32,21 +32,26 @@ body section:first-child img {
 
 
 #home{
-    display: grid;
-    background:linear-gradient(to right,  #686868 17%,#2b2b2b 22%,#4c4c4c 28%,#474747 30%,#666666 41%,#666666 41%,#2c2c2c 47%,#2c2c2c 52%,#2c2c2c 52%,#666666 59%,#2c2c2c 60%,#595959 65%,#2c2c2c 74%,#2c2c2c 74%,#2c2c2c 74%,#2b2b2b 80%,#111111 83%,#111111 86%,#595959 88%,#595959 88%,#1c1c1c 95%,#131313 100%);
-    width: 100%;
+    background-color: #212121;
     height: 100vh;
-    position: relative;
-
-}
-#div1{
-    font-family: ;
-    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     color: white;
-    top: 40px;
-    left: 168px;
-    margin: auto;
-    width: fit-content;
-    height: fit-content;
-    font-size: 50px;
+    font-size: 40px;
 }
+#btn1{
+    font-size: 30px;
+    border-radius: 30px;
+    padding: 20px;
+}
+#home div h1:hover,#home div h3:hover{
+    color: red;
+}
+
+
+
+
+

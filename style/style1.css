@@ -1,7 +1,11 @@
 /**{*/
 /*    background-color: cornsilk;*/
 /*}*/
-
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 body section:first-child img {
     position: absolute;
     top: 0;
@@ -278,6 +282,221 @@ body section:first-child img {
 }
 
 
+/*@media screen and (max-width: 768px) {*/
+/*    #projects div {*/
+/*        max-width: 90%;*/
+/*    }*/
+/*    #projects img {*/
+/*        width: 100px;*/
+/*    }*/
+/*    #projects h1 {*/
+/*        font-size: 2em;*/
+/*    }*/
+/*    #projects p {*/
+/*        font-size: 1em;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 768px) {*/
+/*    #skills h1 {*/
+/*        font-size: 3rem;*/
+/*    }*/
+
+/*    .skills-container {*/
+/*        grid-template-columns: repeat(1, 1fr); !* Single column layout *!*/
+/*    }*/
+
+/*    .skillBox {*/
+/*        width: 90%;*/
+/*        padding: 20px;*/
+/*    }*/
+
+/*    .skillBox img {*/
+/*        width: 70px;*/
+/*    }*/
+
+/*    .skillBox p {*/
+/*        font-size: 0.9rem;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 768px) {*/
+/*    #contact {*/
+/*        padding: 40px 15px;*/
+/*        max-width: 90%;*/
+/*    }*/
+/*    #contact h1 {*/
+/*        font-size: 2rem;*/
+/*    }*/
+/*    #contact p {*/
+/*        font-size: 1rem;*/
+/*    }*/
+/*    #contact h4 {*/
+/*        font-size: 0.9rem;*/
+/*    }*/
+/*    #contact textarea {*/
+/*        font-size: 0.9rem;*/
+/*    }*/
+/*    #contact button {*/
+/*        font-size: 0.9rem;*/
+/*        padding: 10px;*/
+/*    }*/
+/*}*/
 
 
+
+@media screen and (max-width: 768px) {
+
+
+    #navi {
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        padding: 15px 0;
+    }
+
+    #navi a {
+        padding: 12px;
+        font-size: 14px;
+    }
+
+
+    #home {
+        font-size: 28px;
+        padding: 30px;
+        height: auto;
+    }
+
+
+    #about {
+        flex-direction: column;
+        text-align: center;
+        padding: 50px 20px;
+        height: auto;
+    }
+
+    #about > img {
+        width: 220px;
+        height: 220px;
+        margin: 20px auto;
+    }
+
+    .about h3 {
+        font-size: 36px;
+    }
+
+    .about h1 {
+        font-size: 22px;
+    }
+
+    .about p {
+        font-size: 18px;
+    }
+
+
+    .skills-container {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    .skillBox {
+        width: 100%;
+        padding: 20px;
+    }
+
+
+    #projectContent {
+        flex-direction: column;
+    }
+
+    #projectContent div {
+        max-width: 90%;
+        padding: 20px;
+    }
+
+    #project h1 {
+        font-size: 36px;
+    }
+
+    #project h3 {
+        font-size: 22px;
+    }
+
+
+    #contact {
+        padding: 50px 20px;
+        height: auto;
+    }
+
+    #contact h1 {
+        font-size: 28px;
+    }
+
+    #contact textarea,
+    #contact .input {
+        width: 100%;
+        font-size: 16px;
+    }
+
+
+    .footer-content {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .footer-item {
+        justify-content: center;
+    }
+
+    .footer-item i {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .copyright {
+        font-size: 12px;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+
+
+    #navi {
+        height: 60px;
+    }
+
+    #navi a {
+        font-size: 16px;
+        padding: 15px;
+    }
+
+
+    #home {
+        font-size: 32px;
+    }
+
+    .skills-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #projectContent {
+        flex-wrap: wrap;
+    }
+
+    .footer-content {
+        flex-wrap: wrap;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    #home {
+        font-size: 40px;
+    }
+
+    .skills-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
 

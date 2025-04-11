@@ -485,8 +485,33 @@ assingment {
     color: #666;
     margin-bottom: 20px;
 }
+/* Contact Section */
+.contact-form h2 {
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 1em;
+    font-size: 36px;
+}
+.massage{
+    border-radius: 0;
+}
+.contact-form form {
+    max-width: 50em;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3em;
+}
 
-
-
+.contact-form form .input-box input,
+.contact-form form textarea {
+    width: 100%;
+    padding: 1.5em;
+    font-size: 18px;
+    color: black;
+    background: rgb(241, 241, 241);
+    border-radius: 1rem;
+    margin: 1rem 0;
+    resize: none;
+}
 
 

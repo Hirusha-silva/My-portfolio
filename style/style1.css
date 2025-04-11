@@ -22,12 +22,18 @@
     align-items: center;
     z-index: 100;
 }
-/*.logo {*/
-/*    font-size: 25px;*/
-/*    color: white;*/
-/*    font-weight: 600;*/
-/*    transition: 0.3s ease;*/
-/*}*/
+.logo {
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+.logo:hover {
+    color: orangered;
+    text-shadow: 0 0 25px orangered, 0 0 50px orangered;
+    transform: scale(1.1);
+}
+
 #navi{
     background-color: black;
     width: 100%;

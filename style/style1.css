@@ -735,3 +735,159 @@ assingment {
         transform: translateY(-8px);
     }
 }
+/* MOBILE MEDIUM (375px) */
+@media all and (max-width: 375px) {
+    .header {
+        padding: 15px 5%;
+        flex-direction: column;
+    }
+
+    .logo {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .navbar a {
+        margin: 5px 0;
+        font-size: 16px;
+    }
+
+    .contact {
+        padding: 8px 18px;
+        font-size: 14px;
+    }
+
+    .home, .about, .assingment {
+        flex-direction: column;
+        padding: 80px 5% 20px;
+        gap: 2em;
+        text-align: center;
+    }
+
+    .home-content h3, .about-content h3 {
+        font-size: 26px;
+    }
+
+    .home-content h1 {
+        font-size: 36px;
+    }
+
+    .home-content p, .about-content p {
+        font-size: 15px;
+        margin: 15px 0 20px;
+    }
+
+    .btn-box {
+        width: 100%;
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .btn1, .btn2 {
+        padding: 12px 22px;
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .img-box img, .about-img img {
+        width: 250px;
+    }
+
+    .about {
+        padding: 60px 5%;
+        gap: 2em;
+    }
+
+    .contact-form h2 {
+        font-size: 26px;
+    }
+
+    .contact-form form .input-box input,
+    .contact-form form textarea {
+        padding: 1.2em;
+        font-size: 15px;
+    }
+
+    .footer .social a {
+        font-size: 20px;
+        width: 32px;
+        height: 32px;
+        line-height: 30px;
+        margin: 0 5px;
+    }
+
+    .footer ul li {
+        display: block;
+        padding: 5px 0;
+    }
+
+    .footer ul {
+        font-size: 15px;
+    }
+
+    .assingment {
+        grid-template-columns: 1fr;
+    }
+
+    .assingment-item {
+        width: 90%;
+        height: 260px;
+    }
+    #skill {
+        padding: 65px 15px;
+    }
+
+    #skill h1 {
+        font-size: 32px;
+        margin-bottom: 35px;
+        letter-spacing: 2px;
+    }
+
+    #skill h1::after {
+        width: 70px;
+        height: 3px;
+        bottom: -12px;
+    }
+
+    #skill p {
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+
+    .skills-container {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .skillBox {
+        padding: 25px 20px;
+        border-radius: 12px;
+    }
+
+    .skillBox img {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 18px;
+    }
+
+    .skillBox h3 {
+        font-size: 19px;
+        margin: 12px 0;
+    }
+
+    .skillBox p {
+        font-size: 14px;
+    }
+
+    .skillBox:hover {
+        transform: translateY(-10px);
+    }
+}

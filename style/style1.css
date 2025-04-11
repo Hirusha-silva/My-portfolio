@@ -389,8 +389,10 @@ span {
 }
 
 /*Assignment Section*/
-assingment {
-    background: linear-gradient(to bottom right, #f6f9fc, #e9f2f9);
+.assingment {
+    /*background: linear-gradient(to top right, #000000,#000000,#ff5722,#000000,#000000);*/
+    background: black;
+
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
@@ -418,7 +420,7 @@ assingment {
     min-height: 420px;
     background: white;
     padding: 30px 25px;
-    border-radius: 16px;
+    border-radius: 40px;
     text-align: center;
     margin: 10px auto;
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
@@ -429,7 +431,7 @@ assingment {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border-top: 5px solid #26ace0;
+    border-top: 5px solid orange;
 }
 .assingment-item img {
     width: 120px;
@@ -451,7 +453,7 @@ assingment {
     left: 0;
     width: 100%;
     height: 0;
-    background: linear-gradient(135deg, #26ace0 0%, #1a7db0 100%);
+    background: linear-gradient(135deg, #f09b5d 50%, #57eff7 70%);
     z-index: -1;
     transition: height 0.5s ease;
 }
@@ -594,12 +596,12 @@ assingment {
 /* LARGER SCREENS (above 1024px) */
 @media (min-width: 1025px) {
     .assingment-item {
-        width: 300px;
-        height: 300px;
+        /*width: 300px;*/
+        /*height: 300px;*/
     }
 
     .assingment {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .skills-container {
@@ -667,12 +669,18 @@ assingment {
     }
 
     .assingment {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
     }
 
     .assingment-item {
         width: 90%;
         height: 290px;
+
+    }
+    .x{
+        width: 400px;
+        border-radius: 100px;
     }
     #skill {
         padding: 80px 20px;
@@ -706,7 +714,12 @@ assingment {
     .logo {
         font-size: 24px;
     }
-
+    .home{
+        position: relative;
+    }
+    .home-content{
+        margin: auto;
+    }
     .navbar {
         display: flex;
         flex-wrap: wrap;
@@ -784,11 +797,12 @@ assingment {
 
     .assingment {
         grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
     }
 
     .assingment-item {
-        width: 85%;
-        height: 280px;
+        width: 300px;
+        height: 300px;
     }
     #skill {
         padding: 75px 20px;
@@ -824,7 +838,7 @@ assingment {
     }
 }
 /* MOBILE LARGE (425px) */
-@media all and (max-width: 425px) {
+@media all and (max-width: 430px) {
     .header {
         padding: 18px 6%;
         flex-direction: column;
@@ -1233,8 +1247,8 @@ assingment {
     }
 
     .assingment-item {
-        width: 85%;
-        height: 250px;
+        width: 60%;
+        height: 100px;
     }
     #skill {
         padding: 60px 10px;

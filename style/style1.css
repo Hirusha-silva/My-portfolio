@@ -9,13 +9,25 @@
     text-decoration: none;
     list-style: none;
 }
-body section:first-child img {
-    position: absolute;
+.header {
+    position: fixed;
     top: 0;
     left: 0;
-    float: left;
-    z-index: 5;
+    width: 100%;
+    padding: 35px 12%;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
 }
+/*.logo {*/
+/*    font-size: 25px;*/
+/*    color: white;*/
+/*    font-weight: 600;*/
+/*    transition: 0.3s ease;*/
+/*}*/
 #navi{
     background-color: black;
     width: 100%;

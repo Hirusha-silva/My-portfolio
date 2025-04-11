@@ -1,6 +1,9 @@
 /**{*/
 /*    background-color: cornsilk;*/
 /*}*/
+html{
+    scroll-behavior: smooth;
+}
 * {
     margin: 0;
     padding: 0;
@@ -9,6 +12,7 @@
     text-decoration: none;
     list-style: none;
 }
+
 .header {
     position: fixed;
     top: 0;
@@ -313,7 +317,8 @@ span {
 
 .skills-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
+    /*grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));*/
+    grid-template-columns: repeat(3,1fr);
     gap: 40px;
     justify-content: center;
     max-width: 1200px;
@@ -425,6 +430,13 @@ assingment {
     flex-direction: column;
     justify-content: center;
     border-top: 5px solid #26ace0;
+}
+.assingment-item img {
+    width: 120px;
+    height: auto;
+    display: block;
+    margin: 0 auto 1rem;
+    object-fit: contain;
 }
 
 .assingment-item:hover {

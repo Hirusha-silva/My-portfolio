@@ -802,6 +802,7 @@ span {
         margin: 15px 20px;
         font-size: 18px;
         display: block;
+
     }
 
     .contact {
@@ -1019,6 +1020,7 @@ span {
     .navbar a {
         margin: 6px 0;
         font-size: 17px;
+        justify-content: center;
     }
 
     .contact {
@@ -1029,7 +1031,7 @@ span {
     .contact.active {
         display: none; /* Hide contact button on very small screens */
     }
-    /* Add contact link to hamburger menu instead */
+
     .navbar a.mobile-contact {
         background-color: orangered;
         color: white;

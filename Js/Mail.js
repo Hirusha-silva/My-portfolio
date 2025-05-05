@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    emailjs.init("5-TgpCFxtQzSI64H0"); // ✅ Your actual EmailJS Public Key
+    emailjs.init("5-TgpCFxtQzSI64H0");
 
     document.getElementById("contactForm").addEventListener("submit", function (event) {
         event.preventDefault();

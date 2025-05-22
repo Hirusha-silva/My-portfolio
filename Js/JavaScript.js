@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const contactBtn = document.querySelector('.contact');
 
 
+
     menuIcon.addEventListener('click', function() {
 
         if (navbar.style.right === '-100%' || navbar.style.right === '') {
@@ -49,3 +50,4 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+
